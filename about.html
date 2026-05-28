@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마포 노래방 정보 — 상세 가이드 | 마포구 노래방 완전 분석</title>
+    <meta name="description" content="마포 노래방의 모든 정보를 한눈에. 홍대·합정·상수 지점별 음향 시스템, 룸 사양, 가격 비교, 예약 꿀팁까지 데이터 기반으로 제공합니다. 마포에서 가장 합리적인 노래방을 찾는 방법.">
+    <meta name="keywords" content="마포 노래방 정보, 마포 노래방 상세, 홍대 노래방 정보, 합정 노래방, 마포 노래방 시스템, 마포 노래방 가격 비교, 마포 노래방 예약, 마포 노래방 룸, 마포구 노래방 정보">
+    <link rel="canonical" href="https://t3b01-mp-kb-info.pages.dev/info/">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-neon-void">
+    <!-- Open Graph / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b01-mp-kb-info.pages.dev/info/">
+    <meta property="og:title" content="마포 노래방 정보 — 상세 가이드">
+    <meta property="og:description" content="마포 노래방의 완벽한 정보 데이터베이스. 음향 시스템, 룸 크기, 가격, 위치별 특징을 전문가 시각으로 분석합니다.">
+    <meta property="og:image" content="https://placehold.co/1200x630/0A0A0A/00FFC8?text=마포+노래방+정보">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="마포 노래방 정보 — 데이터 기반 분석">
+    <meta name="twitter:description" content="마포 노래방의 객관적인 정보와 비교 데이터. 합리적인 선택을 위한 전문가 가이드.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/0A0A0A/00FFC8?text=마포+노래방+정보">
+    <style>
+        /* ----- RESET & BASE ----- */
+        *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+        html { font-size:16px; scroll-behavior:smooth; background-color:#0A0A0A; }
+        body { 
+            font-family:'Pretendard','Noto Sans KR','Malgun Gothic',sans-serif; 
+            background-color:#0A0A0A; 
+            color:#E0E0E0; 
+            line-height:1.7; 
+            min-height:100vh; 
+            -webkit-font-smoothing:antialiased;
+        }
+        /* ----- CUSTOM PROPERTIES / THEME ----- */
+        :root {
+            --neon-cyan: #00FFC8;
+            --neon-pink: #FF007F;
+            --neon-purple: #8A2BE2;
+            --void-black: #0A0A0A;
+            --dark-gray: #1A1A1A;
+            --medium-gray: #2A2A2A;
+            --text-light: #F0F0F0;
+            --text-muted: #B0B0B0;
+            --border-color: #2A2A2A;
+            --card-bg: #141414;
+            --font-mono: 'JetBrains Mono','D2Coding','Consolas',monospace;
+        }
+        /* ----- TYPOGRAPHY ----- */
+        h1, h2, h3, h4 { 
+            font-weight:700; 
+            letter-spacing:-0.02em; 
+            color:var(--text-light); 
+            text-rendering:optimizeLegibility;
+        }
+        h1 { 
+            font-size:2.8rem; 
+            line-height:1.2; 
+            margin-bottom:1rem; 
+            text-transform:uppercase; 
+            background:linear-gradient(135deg,var(--neon-cyan),var(--neon-purple)); 
+            -webkit-background-clip:text; 
+            -webkit-text-fill-color:transparent; 
+            background-clip:text;
+        }
+        h2 { 
+            font-size:2rem; 
+            margin-top:2.5rem; 
+            margin-bottom:1.2rem; 
+            border-left:4px solid var(--neon-cyan); 
+            padding-left:1rem; 
+            color:var(--neon-cyan);
+        }
+        h3 { 
+            font-size:1.4rem; 
+            margin-top:2rem; 
+            margin-bottom:0.8rem; 
+            color:var(--text-light);
+        }
+        p, li, blockquote { 
+            font-size:1.0625rem; 
+            color:var(--text-muted); 
+            margin-bottom:1.2rem; 
+            line-height:1.8;
+        }
+        a { 
+            color:var(--neon-cyan); 
+            text-decoration:none; 
+            border-bottom:1px solid transparent; 
+            transition:border-color 0.2s, color 0.2s;
+        }
+        a:hover { 
+            color:var(--neon-pink); 
+            border-bottom-color:var(--neon-pink); 
+        }
+        strong { 
+            color:var(--text-light); 
+            font-weight:600;
+        }
+        /* ----- LAYOUT ----- */
+        .container {
+            max-width:1200px;
+            margin:0 auto;
+            padding:0 1.5rem;
+        }
+        /* ----- NAVIGATION (nav-present) ----- */
+        nav {
+            background-color:var(--dark-gray);
+            border-bottom:2px solid var(--neon-cyan);
+            padding:0.8rem 0;
+            position:sticky;
+            top:0;
+            z-index:1000;
+            backdrop-filter:blur(8px);
+        }
+        nav .container {
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+        }
+        nav .logo {
+            font-family:var(--font-mono);
+            font-size:1.2rem;
+            font-weight:700;
+            color:var(--neon-cyan);
+            text-transform:uppercase;
+            letter-spacing:0.1em;
+            border:none;
+        }
+        nav .logo:hover { color:var(--neon-pink); border:none; }
+        nav ul {
+            list-style:none;
+            display:flex;
+            gap:2rem;
+        }
+        nav ul li a {
+            font-size:0.95rem;
+            font-weight:500;
+            text-transform:uppercase;
+            letter-spacing:0.05em;
+            padding:0.3rem 0;
+            color:var(--text-muted);
+            border-bottom:2px solid transparent;
+            transition:all 0.25s;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+            color:var(--neon-cyan);
+            border-bottom-color:var(--neon-cyan);
+        }
+        /* HAMBURGER MENU */
+        .hamburger-menu {
+            display:none;
+            flex-direction:column;
+            cursor:pointer;
+            gap:5px;
+            padding:5px;
+        }
+        .hamburger-menu span {
+            display:block;
+            width:26px;
+            height:2px;
+            background:var(--neon-cyan);
+            transition:all 0.3s;
+        }
+        /* ----- SECTIONS & CARDS ----- */
+        .section {
+            padding:4rem 0;
+        }
+        .section-title {
+            text-align:center;
+            margin-bottom:3rem;
+        }
+        .section-title h2 {
+            border-left:none;
+            padding-left:0;
+            text-align:center;
+        }
+        .card {
+            background:var(--card-bg);
+            border:1px solid var(--border-color);
+            border-radius:0;
+            padding:2rem;
+            margin-bottom:2rem;
+            transition:border-color 0.3s, box-shadow 0.3s;
+            position:relative;
+        }
+        .card:hover {
+            border-color:var(--neon-cyan);
+            box-shadow:0 0 20px rgba(0,255,200,0.1);
+        }
+        .card h3 {
+            margin-top:0;
+            color:var(--neon-cyan);
+        }
+        .card p:last-child { margin-bottom:0; }
+        .grid {
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+            gap:2rem;
+        }
+        .grid-2 {
+            display:grid;
+            grid-template-columns:repeat(2,1fr);
+            gap:2rem;
+        }
+        @media (max-width:768px) {
+            .grid-2 { grid-template-columns:1fr; }
+        }
+        /* ----- TABLES ----- */
+        table {
+            width:100%;
+            border-collapse:collapse;
+            margin:2rem 0;
+            font-size:0.95rem;
+        }
+        th, td {
+            padding:1rem 1.2rem;
+            text-align:left;
+            border-bottom:1px solid var(--border-color);
+        }
+        th {
+            background:var(--dark-gray);
+            color:var(--neon-cyan);
+            font-weight:600;
+            text-transform:uppercase;
+            letter-spacing:0.05em;
+        }
+        td { color:var(--text-muted); }
+        tr:hover td { background:rgba(0,255,200,0.03); }
+        /* ----- FAQ (accordion style) ----- */
+        .faq-item {
+            border-bottom:1px solid var(--border-color);
+            padding:1.2rem 0;
+        }
+        .faq-question {
+            font-weight:600;
+            font-size:1.1rem;
+            cursor:pointer;
+            color:var(--text-light);
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            user-select:none;
+        }
+        .faq-question::after {
+            content:'+';
+            font-size:1.5rem;
+            color:var(--neon-cyan);
+            transition:transform 0.3s;
+        }
+        .faq-question.open::after {
+            content:'−';
+            transform:rotate(180deg);
+        }
+        .faq-answer {
+            max-height:0;
+            overflow:hidden;
+            transition:max-height 0.4s ease-out;
+            color:var(--text-muted);
+            padding-top:0.5rem;
+        }
+        .faq-answer.open { max-height:500px; }
+        /* ----- TEL LINK ----- */
+        .tel-link {
+            display:inline-block;
+            background:var(--neon-cyan);
+            color:var(--void-black);
+            font-weight:700;
+            padding:0.7rem 1.8rem;
+            text-transform:uppercase;
+            letter-spacing:0.05em;
+            font-size:1rem;
+            border:2px solid var(--neon-cyan);
+            transition:all 0.3s;
+        }
+        .tel-link:hover {
+            background:transparent;
+            color:var(--neon-cyan);
+            border-color:var(--neon-cyan);
+        }
+        /* ----- RESPONSIVE (responsive-768) ----- */
+        @media (max-width:768px) {
+            h1 { font-size:2rem; }
+            h2 { font-size:1.6rem; }
+            .section { padding:2.5rem 0; }
+            nav ul {
+                display:none;
+                flex-direction:column;
+                position:absolute;
+                top:100%;
+                left:0;
+                right:0;
+                background:var(--dark-gray);
+                padding:1.5rem;
+                border-bottom:2px solid var(--neon-cyan);
+                gap:1rem;
+            }
+            nav ul.active {
+                display:flex;
+            }
+            .hamburger-menu {
+                display:flex;
+            }
+            .grid { grid-template-columns:1fr; }
+        }
+        /* ----- PLACEHOLDER IMG ----- */
+        .placeholder-img {
+            background:var(--medium-gray);
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            min-height:200px;
+            color:var(--text-muted);
+            font-family:var(--font-mono);
+            font-size:0.85rem;
+            text-transform:uppercase;
+            border:1px dashed var(--border-color);
+            margin-bottom:1.5rem;
+        }
+        /* ----- FOOTER ----- */
+        footer {
+            background:var(--dark-gray);
+            border-top:2px solid var(--neon-cyan);
+            padding:2.5rem 0;
+            text-align:center;
+            margin-top:3rem;
+        }
+        footer p { margin-bottom:0.5rem; font-size:0.9rem; }
+        footer a { color:var(--neon-cyan); }
+        /* ----- UTILITY ----- */
+        .text-center { text-align:center; }
+        .mt-2 { margin-top:2rem; }
+        .mb-0 { margin-bottom:0; }
+        .badge {
+            display:inline-block;
+            background:var(--medium-gray);
+            color:var(--neon-cyan);
+            font-size:0.8rem;
+            padding:0.2rem 0.8rem;
+            text-transform:uppercase;
+            font-family:var(--font-mono);
+            letter-spacing:0.1em;
+            border:1px solid var(--neon-cyan);
+        }
+    </style>
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav>
+        <div class="container">
+            <a href="/" class="logo">마포KB</a>
+            <div class="hamburger-menu" onclick="this.classList.toggle('active'); document.querySelector('nav ul').classList.toggle('active');">
+                <span></span><span></span><span></span>
+            </div>
+            <ul>
+                <li><a href="/">홈</a></li>
+                <li><a href="/info/" class="active">정보</a></li>
+                <li><a href="/recommend/">추천</a></li>
+                <li><a href="/event/">이벤트</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 메인 -->
+    <main>
+        <!-- 섹션 1: 히어로 & 개요 -->
+        <section class="section" style="padding-bottom:2rem;">
+            <div class="container">
+                <span class="badge">2025 데이터 기반</span>
+                <h1>마포 노래방 완전 정보</h1>
+                <p style="font-size:1.3rem; max-width:800px;">홍대입구·합정·상수·망원을 아우르는 마포구 노래방의 <strong>음향 스펙·룸 구성·가격대·부가 서비스</strong>를 전문가 관점에서 해부합니다. 객관적 지표로 비교한 마포 노래방의 현주소를 확인하세요.</p>
+                <div class="placeholder-img">INFO HERO — 마포 노래방 정보 인포그래픽</div>
+            </div>
+</body>
+</html>
